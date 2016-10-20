@@ -178,6 +178,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        App\Spark\Providers\SparkServiceProvider::class,
+        App\Cashier\CashierServiceProvider::class,
     ],
 
     /*
